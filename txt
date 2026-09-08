@@ -1,0 +1,14 @@
+ *Daily Website Development Report*
+*Date:* 08/09/2026
+*Name:* Raju Ali
+*Project Name:* Amar Automates
+*Today’s Work Completed:*-Re design Home page working
+                          All section in Home page Change 
+                          email issues fix and website live 
+*Website Live Link* https://amarautomate-redesign.netlify.app/
+*Issues / Challenges:*- Na
+*Feedback Call Update:*-0
+
+*Pending From Client / Team:*- Na
+*Google Ads* - Ads Manages
+conversation set code
