@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="180" height="180" viewBox="0 0 64 64">
+  <title>Amar Automats</title>
+  <rect width="64" height="64" rx="10" fill="#000000"/>
+  <g fill="#F75A00">
+    <path d="M13 36C23 21 39 6 46 8C54 10 51 30 47 42L46 23C46 16 42 17 37 21L21 42Z"/>
+    <path d="M37 29C28 38 21 46 23 49C26 52 36 49 46 45L50 55C35 60 20 63 15 57C8 49 23 36 37 29Z"/>
+  </g>
+</svg>

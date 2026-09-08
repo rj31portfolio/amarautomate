@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "file": "index.html",
+      "width": 1440,
+      "title": "Amar Automats",
+      "overflow": false,
+      "brokenImages": [],
+      "navLinks": 33,
+      "subject": "",
+      "slider": true
+    },
+    {
+      "file": "index.html",
+      "width": 390,
+      "title": "Amar Automats",
+      "overflow": false,
+      "brokenImages": [],
+      "navLinks": 33,
+      "subject": "",
+      "mobileMenu": true,
+      "slider": true
+    },
+    {
+      "file": "automotive-bushes.html",
+      "width": 390,
+      "title": "Insert Bolt",
+      "overflow": false,
+      "brokenImages": [],
+      "navLinks": 33,
+      "mobileMenu": true
+    },
+    {
+      "file": "contact.html?subject=Quote",
+      "width": 768,
+      "title": "Amar Automats",
+      "overflow": false,
+      "brokenImages": [],
+      "navLinks": 33,
+      "subject": "Request a quote",
+      "mobileMenu": true
+    }
+  ],
+  "contentPreserved": 25,
+  "totalPages": 25,
+  "contentFailures": [],
+  "errors": []
+}

@@ -1,0 +1,277 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Aircome Appliances</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <style>
+    :root {
+      --bg: #050505;
+      --card: #151515;
+      --card-hover: #212121;
+      --text: #ffffff;
+      --muted: #cfcfcf;
+      --accent: #8f1f47;
+      --website: #0ea5e9;
+      --whatsapp: #25d366;
+      --phone: #f97316;
+      --facebook: #1877f2;
+      --instagram-a: #f58529;
+      --instagram-b: #dd2a7b;
+      --instagram-c: #8134af;
+      --email: #ef4444;
+      --location: #22c55e;
+    }
+    body {
+      background:
+        radial-gradient(circle at top, rgba(143, 31, 71, 0.22), transparent 35%),
+        linear-gradient(180deg, #111 0%, var(--bg) 55%, #090909 100%);
+      color: var(--text);
+      font-family: 'Arial', sans-serif;
+      text-align: center;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 32px 16px;
+    }
+    .card-shell {
+      width: min(100%, 460px);
+      margin: 0 auto;
+      padding: 26px 18px 30px;
+      border-radius: 28px;
+      background: rgba(20, 20, 20, 0.92);
+      box-shadow: 0 18px 50px rgba(0, 0, 0, 0.35);
+      border: 1px solid rgba(255, 255, 255, 0.06);
+      backdrop-filter: blur(8px);
+    }
+    .logo-wrap {
+      background: #fff;
+      border-radius: 24px;
+      padding: 14px 18px;
+      width: min(100%, 360px);
+      margin: 0 auto 18px;
+      box-shadow: 0 10px 24px rgba(0, 0, 0, 0.18);
+    }
+    .logo {
+      display: block;
+      width: 100%;
+      height: auto;
+      max-width: 320px;
+      margin: 0 auto;
+    }
+    .tagline {
+      color: var(--muted);
+      font-weight: bold;
+      font-size: 15px;
+      margin-bottom: 12px;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+    .catalog-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 10px;
+      margin: 0 auto 20px;
+      padding: 12px 18px;
+      border-radius: 999px;
+      background: linear-gradient(135deg, #ffffff, #f4d7e3);
+      color: #6f1637;
+      text-decoration: none;
+      font-weight: 700;
+      border: 1px solid rgba(255, 255, 255, 0.45);
+      box-shadow: 0 10px 24px rgba(143, 31, 71, 0.22);
+      transition: 0.3s;
+    }
+    .catalog-btn:hover {
+      transform: translateY(-2px);
+      color: #5a102c;
+      box-shadow: 0 14px 30px rgba(143, 31, 71, 0.3);
+    }
+    .social-icons a {
+      width: 42px;
+      height: 42px;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 18px;
+      margin: 0 6px;
+      transition: 0.3s;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.06);
+      text-decoration: none;
+    }
+    .social-icons a:hover {
+      transform: translateY(-2px);
+    }
+    .link-btn {
+      background: var(--card);
+      border: none;
+      border-radius: 16px;
+      color: var(--text);
+      padding: 14px 20px;
+      font-size: 16px;
+      margin: 10px auto;
+      width: 90%;
+      max-width: 400px;
+      display: flex;
+      align-items: center;
+      justify-content: flex-start;
+      gap: 12px;
+      text-decoration: none;
+      transition: 0.3s;
+      border: 1px solid rgba(255, 255, 255, 0.06);
+    }
+    .link-btn:hover {
+      background: var(--card-hover);
+      transform: scale(1.02);
+      color: var(--text);
+    }
+    .circle-icon {
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+      color: #fff;
+      font-size: 18px;
+      box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.14);
+    }
+    .btn-label {
+      flex: 1;
+      text-align: left;
+      font-weight: 600;
+    }
+    .qr-section {
+      margin-top: 40px;
+      text-align: center;
+    }
+    .qr-section img {
+      width: 120px;
+      height: 120px;
+    }
+    .bottom-btn {
+      margin-top: 25px;
+      background: white;
+      color: black;
+      font-weight: 600;
+      padding: 12px 25px;
+      border-radius: 25px;
+      text-decoration: none;
+      display: inline-block;
+    }
+    .bottom-btn:hover {
+      background: #ddd;
+    }
+    .icon-website {
+      background: linear-gradient(135deg, #38bdf8, var(--website));
+    }
+    .icon-whatsapp {
+      background: linear-gradient(135deg, #34d399, var(--whatsapp));
+    }
+    .icon-phone {
+      background: linear-gradient(135deg, #fb923c, var(--phone));
+    }
+    .icon-facebook {
+      background: linear-gradient(135deg, #60a5fa, var(--facebook));
+    }
+    .icon-instagram {
+      background: linear-gradient(135deg, var(--instagram-a), var(--instagram-b) 50%, var(--instagram-c));
+    }
+    .icon-email {
+      background: linear-gradient(135deg, #fb7185, var(--email));
+    }
+    .icon-location {
+      background: linear-gradient(135deg, #4ade80, var(--location));
+    }
+    .social-icons .icon-website { color: #38bdf8; }
+    .social-icons .icon-whatsapp { color: var(--whatsapp); }
+    .social-icons .icon-phone { color: var(--phone); }
+    .social-icons .icon-facebook { color: var(--facebook); }
+    .social-icons .icon-instagram { color: #f472b6; }
+    .social-icons .icon-email { color: #f87171; }
+    .social-icons .icon-location { color: var(--location); }
+  </style>
+</head>
+<body>
+  <main class="card-shell">
+
+  <!-- Logo -->
+  <div class="logo-wrap">
+    <img src="logo.png" alt="Aircome Appliances Logo" class="logo">
+  </div>
+
+
+  <!-- Title -->
+  
+  <p class="tagline">Aircome Appliances</p>
+  <a href="Aircome Appliances pdf-1.pdf" download class="catalog-btn">
+    <i class="fa-solid fa-file-arrow-down"></i>
+    <span>Download Catalog</span>
+  </a>
+
+  <!-- Social Icons -->
+  <div class="social-icons mb-4">
+    <a href="https://www.aircomeappliances.com/" target="_blank" aria-label="Website" class="icon-website"><i class="fa-solid fa-globe"></i></a>
+    <a href="https://wa.me/919540507034" target="_blank" aria-label="WhatsApp" class="icon-whatsapp"><i class="fab fa-whatsapp"></i></a>
+    <a href="tel:+919540507034" aria-label="Call" class="icon-phone"><i class="fa-solid fa-phone"></i></a>
+    <a href="https://www.facebook.com/people/Aircome-Appliances/61567880962506/" target="_blank" aria-label="Facebook" class="icon-facebook"><i class="fab fa-facebook-f"></i></a>
+    <a href="https://www.instagram.com/aircomeappliances/" target="_blank" aria-label="Instagram" class="icon-instagram"><i class="fab fa-instagram"></i></a>
+    <a href="mailto:aircomecooler@gmail.com" aria-label="Email" class="icon-email"><i class="fa-solid fa-envelope"></i></a>
+    <a href="https://maps.app.goo.gl/o2EsyGQg14bmN2VB7" target="_blank" aria-label="Location" class="icon-location"><i class="fa-solid fa-location-dot"></i></a>
+  </div>
+
+<!-- Example Buttons with Circle Images -->
+<a href="https://www.aircomeappliances.com/" target="_blank" class="link-btn">
+  <span class="circle-icon icon-website"><i class="fa-solid fa-globe"></i></span>
+  <span class="btn-label">Official Website</span>
+</a>
+
+<a href="https://wa.me/919540507034" target="_blank" class="link-btn">
+  <span class="circle-icon icon-whatsapp"><i class="fab fa-whatsapp"></i></span>
+  <span class="btn-label">WhatsApp</span>
+</a>
+
+<a href="tel:+919540507034" class="link-btn">
+  <span class="circle-icon icon-phone"><i class="fa-solid fa-phone"></i></span>
+  <span class="btn-label">Call 9540507034</span>
+</a>
+
+<a href="https://www.facebook.com/people/Aircome-Appliances/61567880962506/" target="_blank" class="link-btn">
+  <span class="circle-icon icon-facebook"><i class="fab fa-facebook-f"></i></span>
+  <span class="btn-label">Facebook</span>
+</a>
+
+<a href="https://www.instagram.com/aircomeappliances/" target="_blank" class="link-btn">
+  <span class="circle-icon icon-instagram"><i class="fab fa-instagram"></i></span>
+  <span class="btn-label">Instagram</span>
+</a>
+
+<a href="mailto:aircomecooler@gmail.com" class="link-btn">
+  <span class="circle-icon icon-email"><i class="fa-solid fa-envelope"></i></span>
+  <span class="btn-label">aircomecooler@gmail.com</span>
+</a>
+
+<a href="https://maps.app.goo.gl/o2EsyGQg14bmN2VB7" target="_blank" class="link-btn">
+  <span class="circle-icon icon-location"><i class="fa-solid fa-location-dot"></i></span>
+  <span class="btn-label">View Location</span>
+</a>
+  <!-- Bottom Section -->
+  <div class="qr-section">
+    <p class="text-white-50">View on mobile</p>
+    <img src="https://api.qrserver.com/v1/create-qr-code/?color=000000&amp;bgcolor=FFFFFF&amp;data=https%3A%2F%2Fwww.aircomeappliances.com%2F&amp;qzone=1&amp;margin=0&amp;size=400x400&amp;ecc=L" alt="qr code" />
+  </div>
+
+  <!-- Join Button -->
+ <!-- <a href="#" class="bottom-btn">Join sknexstudios on Linktree</a> -->
+  </main>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
