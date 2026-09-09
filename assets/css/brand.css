@@ -758,9 +758,36 @@ section {
   padding   : 42px 0
 }
 
-.breadcrumbs h2 {
+.breadcrumbs h2,
+.breadcrumbs h1 {
   font-size  : 30px;
   font-weight: 700
+}
+
+.inner-page .breadcrumbs h1 {
+  font-size: clamp(28px, 3.5vw, 52px);
+  text-transform: uppercase;
+  overflow-wrap: anywhere;
+  margin-bottom: 16px;
+}
+
+.inner-page .breadcrumbs .eyebrow {
+  color: var(--orange);
+  margin-bottom: 12px;
+}
+
+.inner-page .breadcrumbs .d-flex {
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.inner-page .breadcrumbs ol {
+  flex-wrap: wrap;
+}
+
+.inner-page .portfolio-info,
+.inner-page .contact .info {
+  overflow-wrap: anywhere;
 }
 
 .breadcrumbs ol li+li:before {
