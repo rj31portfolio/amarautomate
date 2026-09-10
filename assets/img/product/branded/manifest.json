@@ -1,0 +1,180 @@
+{
+  "mode": "Built-in image_gen",
+  "prompt": "Use case: compositing. Edit image 1 into a square Amar Automats product catalog post. Preserve its actual product geometry, number of parts, material colors and proportions. Image 2 is the exact new logo reference (orange symbol and AMAR AUTOMATS at top right of guideline). Image 3 is the layout/style reference only: match its black/graphite header, white logo inset at upper right, orange #F75A00 rules, pale grey studio product field, typography and black footer consistently. Use the supplied product title, spell correctly; wrap long titles to fit without overlap. Subtitle 'PRECISION TURNED COMPONENTS'. Footer exactly 'www.amarautomats.com' and '9650873232'. Remove old blue logo, colored backgrounds, social icons, badges and other marketing claims. Display the original products prominently below the header. No products from image 3. No invented components. Preserve engineering details.",
+  "images": [
+    {
+      "index": 0,
+      "source": "assets/img/hex nut.jpeg",
+      "output": "assets/img/product/branded/hex-nuts-feature.png",
+      "title": "HEX NUTS"
+    },
+    {
+      "index": 1,
+      "source": "assets/img/inser bolt.jpeg",
+      "output": "assets/img/product/branded/insert-bolt-feature.png",
+      "title": "INSERT BOLT"
+    },
+    {
+      "index": 2,
+      "source": "assets/img/product/53.jpg",
+      "output": "assets/img/product/branded/hex-and-dome-nuts.png",
+      "title": "HEX AND DOME NUTS"
+    },
+    {
+      "index": 3,
+      "source": "assets/img/product/54.jpg",
+      "output": "assets/img/product/branded/automotive-rods.png",
+      "title": "AUTOMOTIVE RODS"
+    },
+    {
+      "index": 4,
+      "source": "assets/img/product/55.jpg",
+      "output": "assets/img/product/branded/quick-links.png",
+      "title": "QUICK LINKS"
+    },
+    {
+      "index": 5,
+      "source": "assets/img/product/56.jpg",
+      "output": "assets/img/product/branded/universal-bracket.png",
+      "title": "UNIVERSAL BRACKET"
+    },
+    {
+      "index": 6,
+      "source": "assets/img/product/57.jpg",
+      "output": "assets/img/product/branded/hex-nuts.png",
+      "title": "HEX NUTS"
+    },
+    {
+      "index": 7,
+      "source": "assets/img/product/58.jpg",
+      "output": "assets/img/product/branded/threaded-pipe.png",
+      "title": "THREADED PIPE"
+    },
+    {
+      "index": 8,
+      "source": "assets/img/product/60.jpg",
+      "output": "assets/img/product/branded/special-insert-bolt.png",
+      "title": "SPECIAL INSERT BOLT"
+    },
+    {
+      "index": 9,
+      "source": "assets/img/product/61.jpg",
+      "output": "assets/img/product/branded/door-closer-screw.png",
+      "title": "DOOR CLOSER SCREW"
+    },
+    {
+      "index": 10,
+      "source": "assets/img/product/ab.jpeg",
+      "output": "assets/img/product/branded/automotive-bushes.png",
+      "title": "AUTOMOTIVE BUSHES"
+    },
+    {
+      "index": 11,
+      "source": "assets/img/product/Door-Closers-Screw.jpg",
+      "output": "assets/img/product/branded/door-closer-screw-range.png",
+      "title": "DOOR CLOSER SCREW"
+    },
+    {
+      "index": 12,
+      "source": "assets/img/product/hang-nuts-bush.jpeg",
+      "output": "assets/img/product/branded/hang-nuts-bush.png",
+      "title": "HANG NUTS BUSH"
+    },
+    {
+      "index": 13,
+      "source": "assets/img/product/ibc.jpg",
+      "output": "assets/img/product/branded/insert-bolts-components.png",
+      "title": "INSERT BOLTS COMPONENTS"
+    },
+    {
+      "index": 14,
+      "source": "assets/img/product/indicator-sprimgs.jpeg",
+      "output": "assets/img/product/branded/indicator-springs.png",
+      "title": "INDICATOR SPRINGS"
+    },
+    {
+      "index": 15,
+      "source": "assets/img/product/Indicator-Springs-Insert-Bolts.jpg",
+      "output": "assets/img/product/branded/indicator-springs-insert-bolts-range.png",
+      "title": "INDICATOR SPRINGS INSERT BOLTS"
+    },
+    {
+      "index": 16,
+      "source": "assets/img/product/insert-bolt.jpeg",
+      "output": "assets/img/product/branded/insert-bolt.png",
+      "title": "INSERT BOLT"
+    },
+    {
+      "index": 17,
+      "source": "assets/img/product/Insert-Bolt.jpg",
+      "output": "assets/img/product/branded/insert-bolt-range.png",
+      "title": "INSERT BOLT"
+    },
+    {
+      "index": 18,
+      "source": "assets/img/product/link-chain.jpeg",
+      "output": "assets/img/product/branded/link-chain.png",
+      "title": "LINK CHAIN"
+    },
+    {
+      "index": 19,
+      "source": "assets/img/product/Link-Chain-ss.jpg",
+      "output": "assets/img/product/branded/link-chain-ss-range.png",
+      "title": "LINK CHAIN SS"
+    },
+    {
+      "index": 20,
+      "source": "assets/img/product/ll.jpeg",
+      "output": "assets/img/product/branded/locking-link.png",
+      "title": "LOCKING LINK"
+    },
+    {
+      "index": 21,
+      "source": "assets/img/product/lock-link.jpg",
+      "output": "assets/img/product/branded/lock-link-range.png",
+      "title": "LOCK LINK"
+    },
+    {
+      "index": 22,
+      "source": "assets/img/product/meter-box-screws.jpeg",
+      "output": "assets/img/product/branded/meter-box-screws.png",
+      "title": "METER BOX SCREWS"
+    },
+    {
+      "index": 23,
+      "source": "assets/img/product/pivot-screws.jpeg",
+      "output": "assets/img/product/branded/pivot-screws.png",
+      "title": "PIVOT SCREWS"
+    },
+    {
+      "index": 24,
+      "source": "assets/img/product/Pivot-Screws.jpg",
+      "output": "assets/img/product/branded/pivot-screws-range.png",
+      "title": "PIVOT SCREWS"
+    },
+    {
+      "index": 25,
+      "source": "assets/img/product/reip.jpeg",
+      "output": "assets/img/product/branded/royal-enfield-indicator-parts.png",
+      "title": "ROYAL ENFIELD INDICATOR PARTS"
+    },
+    {
+      "index": 26,
+      "source": "assets/img/thread pip.jpeg",
+      "output": "assets/img/product/branded/threaded-pipe-feature.png",
+      "title": "THREADED PIPE"
+    },
+    {
+      "index": 27,
+      "source": "assets/img/universal bracket.jpeg",
+      "output": "assets/img/product/branded/universal-bracket-feature.png",
+      "title": "UNIVERSAL BRACKET"
+    },
+    {
+      "index": 28,
+      "source": "assets/img/product/washer-pin.jpeg",
+      "output": "assets/img/product/branded/washer-pin.png",
+      "title": "WASHER PIN"
+    }
+  ]
+}
