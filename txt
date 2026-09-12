@@ -1,13 +1,13 @@
  *Daily Website Development Report*
-*Date:* 10/09/2026
+*Date:* 11/09/2026
 *Name:* Raju Ali
 *Project Name:* Amar Automates
-*Today’s Work Completed:*-Re design Other pages working
+*Today’s Work Completed:*-product pages image update and 
                           generate images 
-                          Make Vcard Mr Sofa 
-                          Make Dwarka ad
+                          Make Dwarka ad Copy
+                          Domain Reseller Plateform Update
 *Website Live Link* https://amarautomate-redesign.netlify.app/
-                      https://vcard.mrsofa.in/
+                    https://amarautomate-redesign.netlify.app/vcard/
 *Issues / Challenges:*- Na
 *Feedback Call Update:*-0
 
