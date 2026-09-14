@@ -35,6 +35,10 @@ h1 em { font-style: normal; color: var(--orange); }
 .quality-strip span { display: flex; align-items: center; gap: 8px; color: var(--silver); font: 600 8px Montserrat, Arial, sans-serif; letter-spacing: .07em; }
 .quality-strip i { color: var(--orange); font-size: 16px; }
 .connect { padding: 28px 28px 12px; }
+.circle-actions { display: flex; flex-wrap: wrap; justify-content: center; gap: 10px; padding-bottom: 24px; margin-bottom: 24px; border-bottom: 1px solid #292929; }
+.circle-actions a { display: grid; place-items: center; width: 46px; height: 46px; flex-shrink: 0; border: 1px solid #713615; border-radius: 50%; background: #1a1a1a; color: var(--orange); font-size: 20px; }
+.circle-actions a:hover, .circle-actions a:focus-visible { background: var(--orange); border-color: var(--orange); color: #000; }
+@media (max-width: 370px) { .circle-actions { display: grid; grid-template-columns: repeat(3, 44px); gap: 12px 24px; } .circle-actions a { width: 44px; height: 44px; } }
 .section-heading { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 18px; }
 .section-heading h2 { margin: 0; font-size: 23px; letter-spacing: -.035em; }
 .section-heading > span { color: #aaa; font: 500 8px Montserrat, Arial, sans-serif; letter-spacing: .12em; }
