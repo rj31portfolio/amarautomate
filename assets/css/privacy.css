@@ -1,0 +1,16 @@
+.privacy-overview {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 14px;
+  margin-top: 30px;
+}
+.privacy-overview > div { padding: 22px 18px; background: #fff; border: 1px solid #e1e1de; border-top: 2px solid var(--orange); }
+.privacy-overview i { display: block; color: #a13b00; font-size: 24px; margin-bottom: 16px; }
+.privacy-overview h3 { font-size: 15px; line-height: 1.4; margin-bottom: 10px; }
+.privacy-overview p { font-size: 13px; line-height: 1.75; margin-bottom: 0; }
+.privacy-provider-links { display: flex; flex-wrap: wrap; gap: 12px 24px; }
+.privacy-provider-links a { display: inline-flex; align-items: center; gap: 10px; min-height: 44px; color: #a13b00; font-size: 13px; font-weight: 600; text-decoration: underline; text-underline-offset: 4px; }
+.privacy-update { margin-top: 20px; }
+@media (max-width: 575px) {
+  .privacy-overview { grid-template-columns: 1fr; }
+}
