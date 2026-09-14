@@ -14,9 +14,6 @@
 *Pending From Client / Team:*- Na
 *Google Ads* - Ads Manages
 
-
-
-
   <div data-aos="fade-up" data-aos-delay="200" class="col-lg-4 col-6 d-flex align-items-stretch">
             <div class="member">
               <div class="member-img">
@@ -231,6 +228,6 @@
             </div>
           </div>
 
-
+ 
 
       
