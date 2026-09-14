@@ -62,6 +62,8 @@ address { font-style: normal; color: var(--silver); font-size: 12px; margin-bott
 .text-link:hover { color: #fff; }
 footer { display: flex; flex-wrap: wrap; justify-content: space-between; gap: 10px; padding: 20px 28px; color: #aaa; font: 500 7px/1.6 Montserrat, Arial, sans-serif; letter-spacing: .08em; }
 footer > span:first-child { color: #fff; font-weight: 700; }
+footer > a { color: #ccc; font-size: 10px; padding-block: 8px; }
+footer > a:hover { color: var(--orange, #f75a00); }
 @media (max-width: 540px) {
   body { padding: 0; background: #000; }
   .card-shell { border: 0; box-shadow: none; }
